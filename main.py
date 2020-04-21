@@ -1,9 +1,8 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from base import Base
 from loader import load_data
-from data import Table14, CableCalculation, InstallMethod, SystemParameter
+from data import Base, Table14, CableCalculation, InstallMethod, SystemParameter
 
 print("cable calc v1")
 

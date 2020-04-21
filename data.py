@@ -1,6 +1,7 @@
 from sqlalchemy import Column, Float, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
 
-from base import Base
+Base = declarative_base()
 
 
 class Table14(Base):
