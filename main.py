@@ -27,17 +27,19 @@ print("cable calculations")
 for cable_calculation in sql_session.query(CableCalculation).all():
     print(cable_calculation, ", load kw: ", cable_calculation.LOAD_KW)
 
-print()
-print("install methods")
-for install_method in sql_session.query(InstallMethod).all():
-    print(install_method)
+# print()
+# print("install methods")
+# for install_method in sql_session.query(InstallMethod).all():
+#     print(install_method)
 
-print()
-print("system parameters")
-for system_parameter in sql_session.query(SystemParameter).all():
-    print(system_parameter)
+# print()
+# print("system parameters")
+# for system_parameter in sql_session.query(SystemParameter).all():
+#     print(system_parameter)
 
 print()
 print("Table14")
-for table14_lookup in sql_session.query(Table14).all():
-    print(table14_lookup)
+print("Table14")
+tst = sql_session.query(Table14).\
+    filter(Table14.SIZE > 4).all()
+print(tst[1])
