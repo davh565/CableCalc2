@@ -1,0 +1,16 @@
+table
+1   limiting temps for insulated cables
+2   
+3   
+3   
+3   
+3   
+4   CCC 2x single-core TPS
+5   CCC 2x single-core X90
+6   CCC 2x single-core RHF100
+7   CCC 3x single-core TPS
+8   CCC 3x single-core X90
+9   CCC 3x single-core RHF110
+10  CCC 2C
+11  
+12  
